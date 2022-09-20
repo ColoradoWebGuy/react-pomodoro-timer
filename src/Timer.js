@@ -47,7 +47,6 @@ function Timer() {
         initTimer();
         
         const interval = setInterval(() => {
-            console.log('int')
             if (isPausedRef.current) {
                 return;
             }
